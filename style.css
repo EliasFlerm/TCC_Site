@@ -69,7 +69,6 @@ html, body {
     flex-direction: column;
     text-align: justify;
     background-color: rgb(13, 194, 22);
-    /*position: relative;*/
 }
 
 .sobreProj::before {
@@ -229,17 +228,6 @@ html, body {
     align-items: center;
 }
 
-/*
-.videoPitch::after {
-    content: " ";
-    width: 100%;
-    height: 15rem;
-    position: absolute;
-    bottom: -4rem;
-    background-color: rgb(13, 194, 22);
-    transform: skewY(-5deg);
-}*/
-
 .videoPitch h1 {
     background-color: #ffa722;
     text-align: center;
@@ -259,29 +247,7 @@ html, body {
     align-items: center;
     padding-top: 30px;
     padding-bottom: 29px;
-    /*position: relative;*/
 }
-
-/*
-.dowloadApp::before {
-    content: " ";
-    width: 100%;
-    height: 15rem;
-    position: absolute;
-    bottom: 24rem;
-    background-color: #FFF6E5;
-    transform: skewY(-5deg);
-}
-
-.dowloadApp::after {
-    content: " ";
-    width: 100%;
-    height: 15rem;
-    position: absolute;
-    bottom: -4rem;
-    background-color: rgb(13, 194, 22);
-    transform: skewY(-5deg);
-}*/
 
 .dowload {
     display: flex;
@@ -291,7 +257,11 @@ html, body {
     z-index: 97;
 }
 
-.btnDownload {
+.dowload h2 {
+    color: #000;
+}
+
+.btnDown {
     background-color: yellow;
     border: none;
     box-shadow: -4px 5px rgb(240, 176, 0);
@@ -305,6 +275,10 @@ html, body {
     font-size: large;
     font-weight: bold;
     margin-top: 15px;
+}
+
+.btnDown:hover {
+    background-color: rgb(255, 217, 0);
 }
 
 .telaApp {
